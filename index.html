@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aline & Bruno | Convite de Casamento</title>
+  <meta name="description" content="Convite de casamento de Aline & Bruno" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content reveal">
+      <div class="heart">♡</div>
+      <p class="small-title">Com muito amor, vamos dizer</p>
+      <div class="sim">sim!</div>
+      <h1>Aline <span>&</span> Bruno</h1>
+      <p class="date">15 de Agosto de 2026 • 16h</p>
+      <a href="#convite" class="btn primary">Abrir convite</a>
+    </div>
+  </section>
+
+  <main id="convite">
+    <section class="panel intro reveal">
+      <p class="small-title gold">Convite de Casamento</p>
+      <h2>Queridos convidados,</h2>
+      <p>É com imensa alegria que compartilhamos este momento tão especial de nossas vidas.</p>
+      <p>Sua presença tornará este dia ainda mais inesquecível.</p>
+      <div class="divider">♡</div>
+      <h3>Faltam</h3>
+      <div class="countdown" id="countdown">
+        <div><strong id="d">0</strong><span>dias</span></div>
+        <div><strong id="h">0</strong><span>horas</span></div>
+        <div><strong id="m">0</strong><span>min</span></div>
+        <div><strong id="s">0</strong><span>seg</span></div>
+      </div>
+    </section>
+
+    <section class="photo-band reveal"></section>
+
+    <section class="panel rsvp reveal" id="rsvp">
+      <p class="small-title gold">Confirmação de presença</p>
+      <h2 id="guestTitle">Seu convite</h2>
+      <p id="guestHelp">Selecione abaixo quem irá comparecer.</p>
+
+      <div id="guestList" class="guest-list"></div>
+      <p class="total">Total confirmado: <strong id="totalConfirmed">0</strong></p>
+
+      <label class="message-label" for="message">💌 Deixe uma mensagem para os noivos (opcional)</label>
+      <textarea id="message" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+
+      <button class="btn primary full" id="confirmBtn">Confirmar presença</button>
+      <button class="btn ghost full" id="notGoingBtn">Não poderemos comparecer</button>
+      <p id="statusMsg" class="status"></p>
+    </section>
+
+    <section class="panel details reveal">
+      <h2>Informações</h2>
+      <div class="info-grid">
+        <div><span>📅</span><strong>Data</strong><p>15/08/2026</p></div>
+        <div><span>🕓</span><strong>Horário</strong><p>16h</p></div>
+        <div><span>📍</span><strong>Local</strong><p>Chácara 3 Irmãos – Usina Mourão</p></div>
+      </div>
+      <a class="btn secondary full" target="_blank" rel="noopener" href="https://maps.app.goo.gl/ZhNN2bJU3CV7Kqoz6">Como chegar</a>
+    </section>
+
+    <section class="panel dress reveal">
+      <h2>Dress Code</h2>
+      <h3>Elegante para cerimônia ao ar livre</h3>
+      <p>Queremos que todos estejam confortáveis e bem à vontade para celebrar conosco.</p>
+      <p>Sugerimos trajes sociais ou esporte fino.</p>
+    </section>
+
+    <section class="panel pix reveal">
+      <h2>Presentes</h2>
+      <p>A sua presença será o nosso maior presente.</p>
+      <p>Caso deseje contribuir com nossa nova etapa, disponibilizamos nossa chave PIX.</p>
+      <div class="pix-box" id="pixText">04368245903</div>
+      <button class="btn secondary full" id="copyPix">Copiar chave PIX</button>
+    </section>
+
+    <section class="final reveal">
+      <div class="final-overlay"></div>
+      <div class="final-text">
+        <p>Obrigado pelo carinho.</p>
+        <h2>Aline & Bruno</h2>
+      </div>
+    </section>
+  </main>
+
+  <script src="convidados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

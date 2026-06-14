@@ -1,0 +1,42 @@
+CONVITE DIGITAL - ALINE & BRUNO
+
+Arquivos principais:
+- index.html: página do convite
+- style.css: estilo clássico/elegante
+- script.js: funcionamento da confirmação
+- convidados.js: lista dos 36 convites e configurações
+- google-apps-script.gs: código para salvar confirmações no Google Sheets
+- convidados_links.csv: lista com links de teste para enviar no WhatsApp
+
+Como testar no computador:
+1. Abra o arquivo index.html no navegador.
+2. Para testar um convite específico, use: index.html?id=001, index.html?id=002 etc.
+
+Como publicar grátis no GitHub Pages:
+1. Crie uma conta no GitHub.
+2. Crie um repositório chamado, por exemplo: aline-bruno-casamento.
+3. Envie todos os arquivos desta pasta para o repositório.
+4. Vá em Settings > Pages.
+5. Em Source, selecione Deploy from a branch.
+6. Selecione branch main e pasta /root.
+7. O GitHub vai gerar um link parecido com:
+   https://SEU-USUARIO.github.io/aline-bruno-casamento/
+
+Como ligar ao Google Sheets:
+1. Crie uma planilha Google.
+2. Vá em Extensões > Apps Script.
+3. Cole o conteúdo do arquivo google-apps-script.gs.
+4. Clique em Implantar > Nova implantação > Aplicativo da web.
+5. Execute como: você mesmo.
+6. Quem tem acesso: qualquer pessoa.
+7. Copie a URL gerada.
+8. Abra convidados.js e cole a URL dentro de appsScriptUrl: "COLE_A_URL_AQUI".
+9. Salve e envie novamente para o GitHub.
+
+Dados:
+- Noivos: Aline & Bruno
+- Data: 15/08/2026
+- Horário: 16h
+- Local: Chácara 3 Irmãos – Usina Mourão
+- PIX: 04368245903
+- Prazo de confirmação: 15/07/2026
