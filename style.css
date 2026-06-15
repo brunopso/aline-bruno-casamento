@@ -13,7 +13,7 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   justify-content:center;
   text-align:center;
   color:#fff;
-  padding-top:120px;
+  padding-top:80px;
   padding-left:28px;
   padding-right:28px;
   padding-bottom:28px;
@@ -29,7 +29,7 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   font-size:62px;
   color:#f0d39f;
   line-height:1;
-  margin:0 0 10px;
+  margin-bottom:12px;
 }
 
 .hero .small-title{
@@ -46,7 +46,7 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   font-size:100px;
   color:#f0c97f;
   line-height:.75;
-  margin:24px 0 10px;
+  margin:0 0 60px;
 }
 .small-title{
   font-family:Montserrat,sans-serif;
@@ -54,7 +54,7 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   letter-spacing:5px;
   font-size:13px;
   font-weight:500;
-  margin:0 0 8px;
+  margin-bottom:15px;
 }
 .gold{color:var(--gold-dark)}
 .sim{
