@@ -39,13 +39,12 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   font-weight:500;
   margin:0 0 10px;
 }
-
 .sim{
   font-family:Alex Brush,cursive;
   font-size:100px;
   color:#f0c97f;
   line-height:.75;
-  margin:0 0 55px;
+  margin:-40px 0 120px;
 }
 .small-title{
   font-family:Montserrat,sans-serif;
