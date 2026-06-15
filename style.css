@@ -10,7 +10,7 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   position:relative;
   max-width:720px;
   text-shadow:0 2px 18px rgba(0,0,0,.55);
-  margin-top:180px;
+  margin-top:170px;
 }
 .heart{font-size:62px;color:#f0d39f;line-height:1}
 .small-title{font-family:Montserrat,sans-serif;text-transform:uppercase;letter-spacing:5px;font-size:13px;font-weight:500}
