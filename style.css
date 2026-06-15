@@ -16,8 +16,8 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   font-size:62px;
   color:#f0d39f;
   line-height:1;
-  margin-top:-130px;
-  margin-bottom:10px;
+  margin:0 0 10px;
+  transform:translateY(-190px);
 }
 .small-title{
   font-family:Montserrat,sans-serif;
@@ -25,8 +25,8 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   letter-spacing:5px;
   font-size:13px;
   font-weight:500;
-  margin-top:0;
-  margin-bottom:10px;
+  margin:0 0 10px;
+  transform:translateY(-190px);
 }
 .gold{color:var(--gold-dark)}
 .sim{
@@ -34,7 +34,8 @@ body{margin:0;background:var(--cream);color:var(--text);font-family:Montserrat,A
   font-size:100px;
   color:#f0c97f;
   line-height:.75;
-  margin:0 0 40px;
+  margin:24px 0 10px;
+  transform:translateY(-190px);
 }
 h1,h2,h3{font-family:Cormorant Garamond,serif;font-weight:500}
 h1{font-size:74px;text-transform:uppercase;letter-spacing:7px;margin:30px 0 8px}
