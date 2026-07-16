@@ -308,15 +308,14 @@ window.CONVIDADOS = [
       "Francisca"
     ]
   },
-  {
+    {
     "id": "036",
     "grupo": "Convite 036",
     "convidados": [
       "Cirene"
     ]
   },
-];
-{
+  {
     "id": "037",
     "grupo": "Convite 037",
     "convidados": [
