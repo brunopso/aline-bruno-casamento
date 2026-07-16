@@ -6,8 +6,8 @@ window.WEDDING_CONFIG = {
   "local": "Chácara 3 Irmãos – Usina Mourão",
   "mapsUrl": "https://maps.app.goo.gl/ZhNN2bJU3CV7Kqoz6",
   "pix": "04368245903",
-  "prazoConfirmacaoISO": "2026-07-15T23:59:59-03:00",
-  "prazoConfirmacaoTexto": "15/07/2026",
+  "prazoConfirmacaoISO": "2026-07-25T23:59:59-03:00",
+  "prazoConfirmacaoTexto": "25/07/2026",
   "appsScriptUrl": "https://script.google.com/macros/s/AKfycbyREX7a5eGL2TOx39MNIjo1-JTqtetX93-trCEDNFnWzu0nOX6V5sUGg7jM6dtbJQjFPw/exec"
 };
 
@@ -313,6 +313,17 @@ window.CONVIDADOS = [
     "grupo": "Convite 036",
     "convidados": [
       "Cirene"
+    ]
+  },
+];
+{
+    "id": "037",
+    "grupo": "Convite 037",
+    "convidados": [
+      "Jakeline",
+      "Alex",
+      "Isis",
+      "Maia"
     ]
   }
 ];
